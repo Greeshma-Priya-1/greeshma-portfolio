@@ -1,0 +1,818 @@
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta content="width=device-width, initial-scale=1.0" name="viewport" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="description" /><meta name="anand@basisinfotech.com" />
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=all" rel="stylesheet" type="text/css" /><link href="../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" /><link href="../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" /><link href="../assets/global/plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet" /><link href="../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="../assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css" /><link href="../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" /><link href="../assets/global/plugins/icheck/skins/all.css" rel="stylesheet" type="text/css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+
+    <!-- BEGIN THEME STYLES -->
+    <link id="style_components" href="../assets/global/css/components.css" rel="stylesheet" type="text/css" /><link href="../assets/global/css/plugins.css" rel="stylesheet" type="text/css" /><link href="../assets/admin/layout/css/layout.css" rel="stylesheet" type="text/css" /><link id="style_color" href="../assets/admin/layout/css/themes/darkblue.css" rel="stylesheet" type="text/css" /><link href="../assets/admin/layout/css/custom.css" rel="stylesheet" type="text/css" />
+    <!-- END THEME STYLES -->
+
+    <!-- BEGIN JAVASCRIPT STYLES -->
+    <script src="../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+    <script src="../assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+    <!-- IMPORTANT! Load jquery-ui.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+    <script src="../assets/global/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../assets/global/plugins/icheck/icheck.min.js"></script>
+    <script type="text/javascript" src="../assets/admin/pages/scripts/form-icheck.js"></script>
+
+    <!-- END JAVASCRIPT STYLES -->
+
+    <link rel="shortcut icon" href="../StaffMaster/favicon.ico" /><title>
+	Saveetha University
+</title>
+</head>
+<body class="page-header-fixed page-quick-sidebar-over-content">
+    <form method="post" action="./Enrollment.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="s9p3/FTGEUGWHEO54eARXH5lQ1oGh5Q1jHwRwknhq1wE2reNGsNZnG7magFgpX2jkHs4U2WFs1Ca2QN1fOhhANlTZ7DxAub+E1XwG+roPFUJVNmBIfyLkAlIrTmBX1ku4nR+WOkQWotr0Z5x3WCazFQ+Uj0O5CpFKshlBt5A270=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZFx7NZliTvuiX6TIqzJN7qPXvE4Sy0ubX3FS8YNAtyGq9lnVljf3W_X_GiPlufAhFQ2&amp;t=638563469773552689" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=D9drwtSJ4hBA6O8UhT6CQog5V_UQMGS9m9tHeNgAlNrqVh7x09rtf9FXk-cYN9VdQFGQ31NUIe7raDHykyujO_I5ajQU-tXILb-8dSmbc82Z9tjy1OboYIcbpve0GfM8beukZzQ_bJHe9rXH_pbetmBI7s9NpGS9GJBSTcs6OwQ1&amp;t=ffffffffc820c398" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=JnUc-DEDOM5KzzVKtsL1tV2RYNuHl_36VP9rddt0ZgpBgkK9rvjy_gyNDp4zyx7mrpDFQFEMKmTf-WmeJ5d9JWJZPm_iJmEsP9FQAST300n_dAZXNyTsytjFXg9kSuqNZtiYLR8QXo1NgSeiXNb3FMFBurz4yCDopvctHaRqn028Kk4_MayegC1V4EVfd_4-0&amp;t=ffffffffc820c398" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="DB9E8003" />
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+        <div class="page-header navbar navbar-fixed-top">
+            <!-- BEGIN HEADER TOP -->
+            <div class="page-header navbar navbar-fixed-top">
+                <!-- BEGIN HEADER INNER -->
+                <div class="page-header-inner">
+                    <!-- BEGIN LOGO -->
+                    <div class="page-logo">
+                        <a href="#" style="color: #ffffff; font-size: 20px; padding-top: 1px;">
+                            <img src="../assets/admin/layout/img/logo.png" alt="logo" class="logo-default" style="height: 35px; padding-bottom: 1px; width: 120px;" />
+                        </a>
+                        <div class="menu-toggler sidebar-toggler hide">
+                            <!-- DOC: Remove the above "hide" to enable the sidebar toggler button on header -->
+                        </div>
+                    </div>
+                    <!-- END LOGO -->
+                    <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+                    <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse"></a>
+                    <!-- END RESPONSIVE MENU TOGGLER -->
+                    <!-- BEGIN TOP NAVIGATION MENU -->
+                    <div class="top-menu">
+                        <ul class="nav navbar-nav pull-right">
+                            <!-- BEGIN NOTIFICATION DROPDOWN -->
+                            <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+                            <li class="dropdown dropdown-extended dropdown-notification" id="header_notification_bar">
+                                <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                    <i class="icon-bell"></i>
+                                    <span class="badge badge-default" id="sbadgenotification">0</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="external">
+                                        <h3 id="hnotification">You have <strong>0 pending</strong> attendance confirmation</h3>
+                                    </li>
+                                    <li>
+                                        <ul class="dropdown-menu-list scroller" id="ulnotification" style="height: 250px;" data-handle-color="#637283">
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- END NOTIFICATION DROPDOWN -->
+                            <!-- BEGIN INBOX DROPDOWN -->
+                            <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+                            <li class="dropdown dropdown-extended dropdown-inbox" id="header_inbox_bar">
+                                <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                    <i class="icon-envelope-open"></i>
+                                    <span class="badge badge-default">0 </span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="external">
+                                        <h3>You have <span class="bold">0 New</span> Messages</h3>
+                                        <a href="#">view all</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- END INBOX DROPDOWN -->
+                            <!-- BEGIN TODO DROPDOWN -->
+                            <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+                            <li class="dropdown dropdown-extended dropdown-tasks" id="header_task_bar">
+                                <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                    <i class="icon-calendar"></i>
+                                    <span class="badge badge-default">0 </span>
+                                </a>
+                                <ul class="dropdown-menu extended tasks">
+                                    <li class="external">
+                                        <h3>You have <span class="bold">0 pending</span> tasks</h3>
+                                        <a href="#">view all</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- END TODO DROPDOWN -->
+                            <!-- BEGIN USER LOGIN DROPDOWN -->
+                            <li class="dropdown dropdown-user">
+                                <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                    <img alt="" class="img-circle imguserprofileimagepath" src="../assets/admin/layout/img/avatar.png" />
+                                    <span id="spprofile" class="username username-hide-on-mobile">PENDYALA SHASHANK PREETHAM   </span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-default">
+                                    <li>
+                                        <a href="../StudentPortal/MyDetails.aspx">
+                                            <i class="icon-user"></i>My Profile </a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a href="../StudentPortal/ChangePassword.aspx">
+                                            <i class="icon-key"></i>Change Password </a>
+                                    </li>
+                                    <li>
+                                        <a id="aLogout" href="javascript:__doPostBack(&#39;ctl00$aLogout&#39;,&#39;&#39;)">
+                                            <i class="icon-logout"></i>Log Out </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- END USER LOGIN DROPDOWN -->
+                            <!-- BEGIN QUICK SIDEBAR TOGGLER -->
+                            <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+                            <li class="dropdown dropdown-quick-sidebar-toggler">
+                                <a id="a1" class="dropdown-toggle" href="javascript:__doPostBack(&#39;ctl00$a1&#39;,&#39;&#39;)">
+                                    <i class="icon-logout"></i>
+                                </a>
+                            </li>
+                            <!-- END QUICK SIDEBAR TOGGLER -->
+                        </ul>
+                    </div>
+                    <!-- END TOP NAVIGATION MENU -->
+                </div>
+            </div>
+            <!-- END HEADER TOP -->
+        </div>
+        <div class="clearfix">
+        </div>
+        <!-- BEGIN PAGE CONTAINER -->
+        <div class="page-container">
+            <!-- BEGIN SIDEBAR -->
+            <div class="page-sidebar-wrapper">
+                <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+                <!-- DOC: Change data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+                <div class="page-sidebar navbar-collapse collapse">
+                    <!-- BEGIN SIDEBAR MENU -->
+                    <!-- DOC: Apply "page-sidebar-menu-light" class right after "page-sidebar-menu" to enable light sidebar menu style(without borders) -->
+                    <!-- DOC: Apply "page-sidebar-menu-hover-submenu" class right after "page-sidebar-menu" to enable hoverable(hover vs accordion) sub menu mode -->
+                    <!-- DOC: Apply "page-sidebar-menu-closed" class right after "page-sidebar-menu" to collapse("page-sidebar-closed" class must be applied to the body element) the sidebar sub menu mode -->
+                    <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+                    <!-- DOC: Set data-keep-expand="true" to keep the submenues expanded -->
+                    <!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+                    <ul class="page-sidebar-menu" data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+                        <!-- DOC: To remove the sidebar toggler from the sidebar you just need to completely remove the below "sidebar-toggler-wrapper" LI element -->
+                        <li class="sidebar-toggler-wrapper">
+                            <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+                            <div class="sidebar-toggler">
+                            </div>
+                            <!-- END SIDEBAR TOGGLER BUTTON -->
+                        </li>
+                        <li class="start" style="padding-top: 5px;">
+                            <a href="../StudentPortal/Landing.aspx">
+                                <i class="icon-home"></i>
+                                <span class="title">Home </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../StudentPortal/MyCourse.aspx">
+                                <i class="icon-graduation"></i>
+                                <span class="title">My Course</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../StudentPortal/CourseFeedback.aspx">
+                                <i class="icon-pencil"></i>
+                                <span class="title">My Course Feedback</span>
+                            </a>
+                        </li>
+                        <li class="hidden">
+                            <a href="../StudentPortal/SlotSelect.aspx">
+                                <i class="icon-bulb"></i>
+                                <span class="title">Enrollment</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../StudentPortal/Enrollment.aspx">
+                                <i class="icon-bulb"></i>
+                                <span class="title">Enrollment<span class="badge badge-roundless badge-danger">new</span></span>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <i class="icon-calendar"></i>
+                                <span class="title">Attendance</span>
+                                <span class="arrow "></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="../StudentPortal/AttendanceReport.aspx">Attendance Report</a>
+                                </li>
+                                <li>
+                                    <a href="../StudentPortal/OD.aspx">Request - OD </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="../StudentPortal/ViewAssigment.aspx">
+                                <i class="icon-note"></i>
+                                <span class="title">Assignment</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <i class="icon-puzzle"></i>
+                                <span class="title">Examination</span>
+                                <span class="arrow "></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="../StudentPortal/InternalMarks.aspx">Internal Marks</a>
+                                </li>
+                                <li>
+                                    <a href="../StudentPortal/NoDueRequest.aspx">No Due</a>
+                                </li>
+                                <li>
+                                    <a href="../StudentPortal/Revaluation.aspx">Revaluation</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="../StudentPortal/Paymenthistory.aspx">
+                                <i class="icon-credit-card"></i>
+                                <span class="title">Financial Record</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../StudentPortal/Disciplinary.aspx">
+                                <i class="icon-speech"></i>
+                                <span class="title">Disciplinary</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../StudentPortal/Offer.aspx">
+                                <i class="icon-star"></i>
+                                <span class="title">Offer</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <i class="icon-support"></i>
+                                <span class="title">Raise Infra Issue</span>
+                                <span class="arrow "></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="../StudentPortal/Issue.aspx">Raise Issue</a>
+                                </li>
+                                <li>
+                                    <a href="../StudentPortal/ViewIssue.aspx">View Issue Solution</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="../StudentPortal/DataProfile.aspx">
+                                <i class="icon-camera"></i>
+                                <span class="title">My Profile</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- END SIDEBAR MENU -->
+                </div>
+            </div>
+            <!-- END SIDEBAR -->
+            <!-- BEGIN PAGE CONTENT -->
+            <div class="page-content-wrapper">
+                <div class="page-content">
+                    <div class="row">
+                        <div class="col-md-12" style="padding-top: 10px;">
+                            
+    <!-- BEGIN PAGE LEVEL STYLES -->
+    <link rel="stylesheet" type="text/css" href="../assets/global/plugins/select2/select2.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/global/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/global/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.min.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.css" />
+    <!-- END PAGE LEVEL STYLES -->
+    <!-- BEGIN PAGE LEVEL PLUGINS -->
+    <script type="text/javascript" src="../assets/global/plugins/select2/select2.min.js"></script>
+    <script type="text/javascript" src="../assets/global/plugins/datatables/media/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="../assets/global/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js"></script>
+    <script type="text/javascript" src="../assets/global/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.min.js"></script>
+    <script type="text/javascript" src="../assets/global/plugins/datatables/extensions/Scroller/js/dataTables.scroller.min.js"></script>
+    <script type="text/javascript" src="../assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js"></script>
+    <!-- END PAGE LEVEL PLUGINS -->
+    <div class="">
+        <div class="form-horizontal">
+            <div class="col-md-10">
+                <h3 class="page-title">Enrollment <small></small>
+                </h3>
+            </div>
+            <div class="col-md-2 pull-right">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <div class="col-sm-1"></div>
+                    <label class="col-md-2 control-label text-danger">Select Slot</label>
+                    <div class="col-md-4">
+                        <select name="ctl00$cphbody$ddlslot" id="cphbody_ddlslot" class="form-control ">
+
+</select>
+                    </div>
+                    <div class="col-sm-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12" style="padding-bottom: 20px; padding-top: 10px; display: block;">
+            <div class="text-center">
+                <span style="font-weight: bold;">Note:&nbsp; </span>
+                <button type="button" class="btn start" style="background: #dff0d8; color: #3c763d; border-color: #d6e9c6;">
+                    <span>Approved </span>
+                </button>
+                <button type="button" class="btn start" style="background: #faebcc; color: #8a6d3b; border-color: #faebcc;">
+                    <span>Pending for Approval</span>
+                </button>
+                <button type="button" class="btn start" style="background: #f2dede; color: #a94442; border-color: #ebccd1;">
+                    <span>Rejected </span>
+                </button>
+                <button type="button" class="btn start" style="background: #fff; color: #808080; border-color: #fcf6f6; display: none;">
+                    <span>&nbsp; &nbsp;<span class="badge badge-success">30</span>&nbsp; &nbsp;&nbsp; &nbsp;Available Slot Count</span>
+                </button>
+
+            </div>
+        </div>
+        <div class="clearfix"></div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="portlet box blue-hoki">
+                    <div class="portlet-title">
+                        <div class="caption">
+                            <i class="fa fa-arrow-circle-o-right"></i>Course Details
+                        </div>
+                        <div class="tools">
+                            <a href="javascript:;" class="collapse"></a>
+                        </div>
+                    </div>
+                    <div class="portlet-body">
+                        <table class="table table-bordered table-hover">
+                            <thead>
+                                <tr role="row" class="heading">
+                                    <th width="20%">Select Course
+                                    </th>
+                                    <th width="20%"></th>
+                                    <th width="20%"></th>
+                                    <th width="20%"></th>
+                                    <th width="20%"></th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbltbodyslota">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12 text-center" id="dvsubmit">
+            <button type="button" class="btn btn-sm btn-success" id="btnSave" onclick="GetAllIds();">Send for Approval</button>
+        </div>
+
+        <div class="modal fade" id="MdlCourse">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Send For Approval</h4>
+                    </div>
+                    <div class="modal-body text-center">
+                        <i class="glyphicon glyphicon-question-sign text-warning" style="font-size: 30px; margin-top: 5px"></i>
+                        <br />
+                        <h4>Are you sure want to send for approval?</h4>
+                    </div>
+                    <div class="modal-footer text-center">
+                        <div class="col-md-12 text-center">
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4">
+                                <button onclick="__doPostBack('ctl00$cphbody$btnSubmit','')" id="cphbody_btnSubmit" type="button" class="btn btn-sm btn-success">Yes</button>
+                                <button type="button" class="btn btn-sm btn-danger" data-dismiss="modal">No</button>
+                            </div>
+                            <div class="col-md-4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <input type="hidden" name="ctl00$cphbody$hdnslot" id="cphbody_hdnslot" />
+    <input type="hidden" name="ctl00$cphbody$hdncourseid" id="cphbody_hdncourseid" />
+
+    <script type="text/javascript">
+
+        $(function () {
+            Bindslot();
+
+            $("#cphbody_ddlslot").change(function () {
+                $("#cphbody_hdnslot").val($("#cphbody_ddlslot").val());
+
+                Bindscheule($("#cphbody_ddlslot").val());
+            });
+
+        });
+
+        function Bindslot() {
+            $.ajax({
+                url: "../Handler/Student.ashx?Page=StudentInfobyId&Mode=GetSlots&Id=0", success: function (result) {
+
+                    $("#cphbody_ddlslot option").remove();
+                    $.each(JSON.parse(result).Table, function (key, value) {
+                        if (key == 0) {
+                            $("#cphbody_ddlslot").append($("<option></option>").val("0").html("--Select--"));
+                        }
+
+                        $("#cphbody_ddlslot").append($("<option></option>").val(value.SlotId).html(value.SlotName));
+                    });
+                }
+            });
+        }
+
+        var arrlist = [];
+        var vuniq = null;
+        var jsonObjwork = [];
+        var maxcourceenroll = 4;
+
+        var iscompletd = 0;
+        var isinprogress = 0;
+
+        function Bindscheule(id) {
+
+            jsonObjwork = [];
+
+            $.ajax({
+                url: "../Handler/Student.ashx?Page=StudentInfobyId&Mode=GetCourseBySlot&Id=" + id + "", success: function (result) {
+                    if (result != '' && result != '[]') {
+                        var Result = [];
+
+                        var slota = 0;
+
+                        $('#tbltbodyslota').html('');
+
+                        var vartrslotahtml = "";
+
+                        var vartrslotaselect = 0;
+
+                        var i = 1;
+
+                        var Data = JSON.parse(result).Table
+                        var rowcount = Data.length;
+
+                        $.each(JSON.parse(result).Table, function (a, b) {
+
+                            if (b.IsComplete == '1') {
+                                iscompletd++;
+                                vartrslotahtml += '<td style="background:#dff0d8;color:#3c763d;border-color:#d6e9c6;"><label>' + b.SubjectCode + '-' + b.SubjectName + '-' + b.StaffName + '</label>&nbsp;&nbsp;<span class="badge badge-success">' + b.AvailableCount + '</span></td>';
+                                $("#cphbody_hdnslot").val(b.SubjectId);
+                                vartrslotaselect = 1;
+                            }
+                            else if (b.IsReject == '1') {
+                                vartrslotahtml += '<td style="background:#f2dede;color:#a94442;border-color:#ebccd1;"><label><input type="radio"  name="rbslota" value=' + b.SubjectId + '>' + b.SubjectCode + '-' + b.SubjectName + '-' + b.StaffName + '</label>&nbsp;&nbsp;<span class="badge badge-warning">' + b.AvailableCount + '</span></td>';
+                            }
+                            else if (b.IsEnroll != '0') {
+                                isinprogress++;
+                                vartrslotahtml += '<td style="background:#faebcc;color:#8a6d3b;border-color:#faebcc;"><label><input type="radio" checked name="rbslota" value=' + b.SubjectId + '>' + b.SubjectCode + '-' + b.SubjectName + '-' + b.StaffName + '</label>&nbsp;&nbsp;<span class="badge badge-warning">' + b.AvailableCount + '</span></td>';
+                                vartrslotaselect = 1;
+                            }
+                            else {
+                                if (b.AvailableCount > 0) {
+                                    vartrslotahtml += '<td><label><input type="radio" name="rbslota" value=' + b.SubjectId + '>' + b.SubjectCode + '-' + b.SubjectName + '-' + b.StaffName + '</label>&nbsp;&nbsp;<span class="badge badge-success">' + b.AvailableCount + '</span></td>';
+                                }
+                                else {
+                                    vartrslotahtml += '<td><label>' + b.SubjectCode + '-' + b.SubjectName + '-' + b.StaffName + '</label>&nbsp;&nbsp;<span class="badge badge-success">' + b.AvailableCount + '</span></td>';
+                                }
+                            }
+
+                            slota++;
+
+                            if (slota == 5) {
+
+                                $('#tbltbodyslota').append('<tr>' + vartrslotahtml + '</tr>');
+                                vartrslotahtml = '';
+                                slota = 0;
+                            }
+
+                            if (rowcount == i) {
+
+                                if (slota == 1) {
+                                    $('#tbltbodyslota').append('<tr>' + vartrslotahtml + '<td></td><td></td><td></td><td></td></tr>');
+                                    vartrslotahtml = '';
+                                }
+                                else if (slota == 2) {
+                                    $('#tbltbodyslota').append('<tr>' + vartrslotahtml + '<td></td><td></td><td></td></tr>');
+                                    vartrslotahtml = '';
+                                }
+                                else if (slota == 3) {
+                                    $('#tbltbodyslota').append('<tr>' + vartrslotahtml + '<td></td><td></td></tr>');
+                                    vartrslotahtml = '';
+                                }
+                                else if (slota == 4) {
+                                    $('#tbltbodyslota').append('<tr>' + vartrslotahtml + '<td></td></tr>');
+                                    vartrslotahtml = '';
+                                }
+                                else if (slota > 4) {
+                                    $('#tbltbodyslota').append('<tr>' + vartrslotahtml + '</tr>');
+                                    vartrslotahtml = '';
+                                }
+                            }
+
+                            i++;
+
+                        });
+
+
+                        if (vartrslotaselect == 1) {
+                            $('input[name="rbslota"]').attr('disabled', 'disabled');
+                            $('#dvsubmit').hide();
+                        }
+                        else { $('#dvsubmit').show(); }
+
+                    }
+                }
+
+            });
+        }
+
+
+
+        function GetAllIds() {
+
+            var radioValue = $("input[name='rbslota']:checked").val();
+            console.log(radioValue)
+            $('#MdlCourse').modal('show');
+
+            if (radioValue != undefined && $("#cphbody_hdncourseid").val() == '') {
+            $("#cphbody_hdncourseid").val(radioValue);
+        }
+    }
+    </script>
+
+                        </div>
+                    </div>
+                    <input type="hidden" name="ctl00$hdngradeid" id="hdngradeid" value="0" />
+                    <input type="hidden" name="ctl00$hdnfeedback" id="hdnfeedback" value="2" />
+                </div>
+            </div>
+            <!-- END PAGE CONTENT -->
+            <div class="modal fade" id="MdlGradedetails">
+                <div class="modal-dialog" style="width: 45%;">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Attendance confirmation!</h4>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="form-horizontal">
+                                <div class="form-group">
+                                    <div class="col-md-2">
+                                        <label class="control-label">Subject</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <span class="control-label pull-left" id="lblgradesubdet"></span>
+                                    </div>
+                                    <div class="col-md-6"></div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-2">
+                                        <label class="control-label">Staff</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <span class="control-label pull-left" id="lblgradestaff"></span>
+                                    </div>
+                                    <div class="col-md-6"></div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-2">
+                                        <label class="control-label">Dated On</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <span class="control-label pull-left" id="lblgradedate"></span>
+                                    </div>
+                                    <div class="col-md-6"></div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-2">
+                                        <label class="control-label text-danger">Feedback</label>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="input-group">
+                                            <div class="icheck-inline">
+                                                <label class="">
+                                                    <div class="iradio_minimal-grey" style="position: relative;" onclick="getfeedbackid('5');">
+                                                        <input name="radio2" id="feed1" class="icheck" style="position: absolute; opacity: 0;" type="radio" onclick="getfeedbackid('1');" />
+                                                        <ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins>
+                                                    </div>
+                                                    5
+                                                </label>
+                                                <label class="">
+                                                    <div class="iradio_minimal-grey" style="position: relative;" onclick="getfeedbackid('4');">
+                                                        <input name="radio2" id="feed2" class="icheck" style="position: absolute; opacity: 0;" type="radio" onclick="getfeedbackid('2');" />
+                                                        <ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins>
+                                                    </div>
+                                                    4
+                                                </label>
+                                                <label class="">
+                                                    <div class="iradio_minimal-grey" style="position: relative;" onclick="getfeedbackid('3');">
+                                                        <input name="radio2" id="feed3" class="icheck" style="position: absolute; opacity: 0;" type="radio" onclick="getfeedbackid('3');" />
+                                                        <ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins>
+                                                    </div>
+                                                    3
+                                                </label>
+                                                <label class="">
+                                                    <div class="iradio_minimal-grey" style="position: relative;" onclick="getfeedbackid('2');">
+                                                        <input name="radio2" id="feed4" class="icheck" style="position: absolute; opacity: 0;" type="radio" onclick="getfeedbackid('4');" />
+                                                        <ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins>
+                                                    </div>
+                                                    2
+                                                </label>
+                                                <label class="">
+                                                    <div class="iradio_minimal-grey" style="position: relative;" onclick="getfeedbackid('1');">
+                                                        <input name="radio2" id="feed5" class="icheck" style="position: absolute; opacity: 0;" type="radio" onclick="getfeedbackid('5');" />
+                                                        <ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;"></ins>
+                                                    </div>
+                                                    1
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-2">
+                                        <label class="control-label text-danger">Remarks</label>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <textarea name="ctl00$txtremarks" id="txtremarks" class="form-control" rows="3" maxlength="250"></textarea>
+                                    </div>
+                                    <div class="col-md-1"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer text-center">
+                            <button onclick="__doPostBack('ctl00$btnSubmit','')" id="btnSubmit" type="button" class="btn btn-sm btn-success">Submit</button>
+                            <button type="button" class="btn btn-sm btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END PAGE CONTAINER -->
+        <!-- BEGIN FOOTER -->
+        <div class="page-footer">
+            <div id="DivSuccessMessage" class="DivSuccessMessage" style="position: absolute; bottom: 2%; right: 1%; z-index: 10000; top: 85%;">
+            </div>
+            <div id="ApplicationLoading" style="position: absolute; bottom: 50%; right: 50%; z-index: 1000000; display: none;">
+                <img src="../Content/images/loading.gif" />
+            </div>
+            <div class="page-footer-inner">
+                &nbsp;&nbsp;&nbsp;2018 © Saveetha Institute of Medical and Technical Sciences | <a href="../Disclaimer.aspx" target="_blank" id="disclaimer-btn">Disclaimer </a>| <a href="../PrivacyPolicy.aspx" target="_blank" id="privacy-btn">Privacy Policy </a>
+            </div>
+            <div class="scroll-to-top">
+                <i class="icon-arrow-up"></i>
+            </div>
+        </div>
+        <!-- END FOOTER -->
+        <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- BEGIN CORE PLUGINS -->
+        <!--[if lt IE 9]>
+        <script src="../../assets/global/plugins/respond.min.js"></script>
+        <script src="../../assets/global/plugins/excanvas.min.js"></script> 
+        <![endif]-->
+
+        <script src="../assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+        <!-- END CORE PLUGINS -->
+        <script src="../assets/global/scripts/metronic.js" type="text/javascript"></script>
+        <script src="../assets/admin/layout/scripts/layout.js" type="text/javascript"></script>
+        <script src="../assets/admin/layout/scripts/quick-sidebar.js" type="text/javascript"></script>
+        <script src="../assets/admin/layout/scripts/demo.js" type="text/javascript"></script>
+        <script src="../assets/global/scripts/stdcustom.js"></script>
+
+        <script>
+            jQuery(document).ready(function () {
+                Metronic.init(); // init metronic core components
+                Layout.init(); // init current layout
+                QuickSidebar.init(); // init quick sidebar
+                Demo.init(); // init demo features
+                //bindfeedback(); // bind grade feedback
+            });
+
+            function getfeedbackid(id) {
+                $("#hdnfeedback").val(id);
+            }
+
+            function bindfeedback() {
+
+                var studentid = 0;
+
+                $.ajax({
+                    url: "../Handler/Administration.ashx?Page=DashInstitute&Mode=Studentfeedback&CId=" + studentid + "", success: function (result) {
+
+                        var Data = JSON.parse(result)
+
+                        $('#sbadgenotification').html(Data.length);
+                        $('#hnotification').html('You have <strong>' + Data.length + ' pending</strong> attendance confirmation');
+
+                        var nhtml = '';
+
+                        if (Data != null) {
+                            $.each(Data, function (key, value) {
+                                nhtml += '<li><a href="javascript:;" onclick="showfeedback(' + value.GradeId + ');"><span class="time">' + value.totaldays + ' days</span><span class="details"><span class="label label-sm label-icon label-danger"><i class="fa fa-bolt"></i></span>' + value.SubjectName + '</span></a></li>';
+                            });
+                        }
+
+                        $('#ulnotification').append(nhtml);
+                    }
+                });
+
+            }
+
+            function showfeedback(id) {
+
+                $('#MdlGradedetails').modal('show');
+
+                $("#hdngradeid").val(id);
+
+                $.ajax({
+                    url: "../Handler/Administration.ashx?Page=DashInstituteGrade&Mode=StdfeedbackDetail&CId=" + id + "", success: function (result) {
+
+                        var Data = JSON.parse(result)
+
+                        if (Data != null) {
+                            $.each(Data, function (key, value) {
+
+                                $('#lblgradesubdet').html(value.SubjectCode + '-' + value.SubjectName);
+
+                                $('#lblgradestaff').html(value.feedbacktoname);
+
+                                $('#lblgradedate').html(value.GradeOn);
+                            });
+                        }
+                    }
+                });
+
+            }
+
+        </script>
+        <!-- END JAVASCRIPTS -->
+        <style>
+            .page-header .page-header-top .page-logo .logo-default {
+                margin: 3.5px 0px 0px 0px;
+            }
+        </style>
+    </form>
+</body>
+</html>
